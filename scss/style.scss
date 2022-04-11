@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.eid_ul_fitr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('../img/eid-ul-fitr.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    .countdown{
+        display: flex;
+        justify-content: space-around;
+    }
+    .countdown_pro{
+        background: rgba(0,0,0,.5);
+        margin: 20px;
+        text-align: center;
+        padding: 30px;
+        color: white;
+    }
+}
